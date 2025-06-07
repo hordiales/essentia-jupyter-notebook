@@ -1,0 +1,68 @@
+{
+    "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "ac": "https://w3id.org/ac-ontology/aco#",
+        "afo": "https://w3id.org/afo/onto/1.1#",
+        "afv": "https://w3id.org/afo/vocab/1.1#",
+        "ebucore": "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#",
+        "nfo": "http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#"
+    },
+    "@type": "ac:AudioFile",
+    "ebucore:bitrate": 1411200.0,
+    "ebucore:filesize": 1208430,
+    "ebucore:hasCodec": {
+        "@type": "ebucore:AudioCodec",
+        "ebucore:codecId": "pcm_s16le"
+    },
+    "nfo:compressionType": "nfo:losslessCompressionType",
+    "ac:audioMd5": "bf0f4d0613fab0fa5268ece9b043c441",
+    "ac:availableItemOf": {
+        "@type": "ac:AudioClip"
+    },
+    "ac:signalAudioFeature": [
+        {
+            "@type": "afv:TemporalCentroid",
+            "afo:value": 0.5185133814811707
+        },
+        {
+            "@type": "afv:LogAttackTime",
+            "afo:value": 0.02666015364229679
+        },
+        {
+            "@type": "afv:Tempo",
+            "afo:confidence": 0.9666666388511658,
+            "afo:value": 140
+        },
+        {
+            "@type": "afv:Pitch",
+            "afo:confidence": 0.5085322260856628,
+            "afo:value": 112.39720153808594
+        },
+        {
+            "@type": "afv:MIDINote",
+            "afo:confidence": 0.5085322260856628,
+            "afo:value": 45
+        },
+        {
+            "@type": "afv:Loop",
+            "afo:value": true
+        },
+        {
+            "@type": "afv:Key",
+            "afo:confidence": 0.8010611534118652,
+            "afo:value": "A minor"
+        },
+        {
+            "@type": "afv:Note",
+            "afo:confidence": 0.5085322260856628,
+            "afo:value": "A2"
+        },
+        {
+            "@type": "afv:Loudness",
+            "afo:value": -10.151906967163086
+        }
+    ],
+    "ac:signalChannels": 2,
+    "ac:signalDuration": 6.849999904632568,
+    "ac:singalSamplerate": 44100.0
+}
